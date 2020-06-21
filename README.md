@@ -1,2 +1,2 @@
 # R_markdown_lesson
-learning tio use markdown
+learning to use markdown. going to try and start working in rstudio, taking notes with markdown and keeping everything linked to github etc
