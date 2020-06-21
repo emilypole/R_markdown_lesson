@@ -1,0 +1,59 @@
+---
+title: "babys_first_markdown"
+author: "emilypole"
+date: "21/06/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Notes on markdown
+
+headers are done using # and then a space, with one being the biggest header, and then they get sequentially smaller when you add more.
+
+*italics* are done with one set of asterks, **bold** is done with two.
+
+# Header level 1
+## Header level 2
+### Header level 3
+
+code is included by three backticks followed by {r} and then including your code chunk on a new line, and closed by andother three backticks after. but its easier just to use the insert code bit in the interface? theres also supposed to be a hotkey but it wasnt workign for me (not sure if thats cos cloud or keytext)
+
+
+```{r}
+print("hello world")
+```
+
+bullet points are just a dash and then a space, and at the end of the line make sure to incl two spaces
+
+- frogs  
+- logs  
+- hogs  
+
+there's 
+
+I'm going to try and upload the really badly formatted (ironic) markdown cheatsheet from this lesson to the repo so its nearby, but I don't really know how to do that. maybe straight from github?
+
+I've left the default examples below.
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
