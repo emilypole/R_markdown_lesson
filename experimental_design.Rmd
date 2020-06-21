@@ -1,0 +1,30 @@
+---
+title: "experimental_design"
+author: "emilypole"
+date: "21/06/2020"
+output:
+  pdf_document: default
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+good science - formulate the question, identify sources of error, design the data collection, all before collectiong any data.
+
+be careful of p hacking
+
+*confounder*: an"extraeneous" variable that may affect the relationship between the dependent and indpendent variables we are studying.
+
+*control*: where the dependent variable is measured, even though the independent variable is not being manipulated
+
+*randomising*: if there is a confounding variable that may affect your experiment (like age) then randomising your data before splitting into a control and study group hopefully spreads that factor evenly accross the control and study group.
+
+> i think this only works if the independent variable is one that you can actually alter yourself - eg in a drug trial the independent variable is if you give them the drug or not. if you are comparing literacy to shoe size then this doesnt work, but i dont know how to describe why
+
+*blinding*: removing effects related to human subjects know which group they are in; placebo etc
+
+*replication*: can measure the variablility of your data
+
+
